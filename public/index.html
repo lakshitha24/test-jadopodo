@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EX1</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="venders/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="venders/css/customStyle.css">
+        <script type="text/javascript" src="venders/js/jquery.js"></script>
+		<script type="text/javascript" src="venders/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="venders/js/angular.js"></script>
+		<script type="text/javascript" src="venders/js/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="app/app.js"></script>
+		<script type="text/javascript" src="app/router.js"></script>
+		<script type="text/javascript" src="app/controllers/homeController.js"></script>
+		<script type="text/javascript" src="app/controllers/productController.js"></script>
+		<script type="text/javascript" src="app/controllers/searchController.js"></script>
+
+	</head>
+	<body>
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+         
+          <a class="navbar-brand" href="#">JADOPADO</a>
+        </div>
+       
+      </div>
+    </nav>
+	   <div class="view" ui-view></div>
+		
+	</body>
+</html>
